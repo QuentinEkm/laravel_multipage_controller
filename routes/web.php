@@ -15,6 +15,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [MultipageController::class,"home"])->name('home');
+Route::get('/about', [MultipageController::class,"about"])->name('about');
+Route::get('/products', [MultipageController::class,"products"])->name('products');
+Route::get('/store', [MultipageController::class,"store"])->name('store');
 
 
 //
